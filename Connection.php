@@ -1,13 +1,11 @@
 <?php
-
-  $db_server = "localhost:";
-  $db_user   = "root";
-  $db_pass   = "";
-  $db_name   = "cse311l";
-
-  $conn = mysqli_connect($db_server,$db_user,$db_pass,$db_name);
-  if(!$conn){
-    die("Connection failed! :".mysqli_connect_error());
-  }
-
+$db=new PDO('mysql:host=localhost;dbname=bbms','root','');
+if($db)
+{
+   echo "Connected";
+}
+else
+{
+	echo "Not connected";
+}
 ?>
