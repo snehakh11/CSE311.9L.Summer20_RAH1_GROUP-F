@@ -21,7 +21,7 @@ session_start();
              	header("Location:index.php");
              }
 			 ?>
-			<h1>WELCOME!!!!!!</h1>
+			<h1>WELCOME</h1>
 			
 
 		</div>
