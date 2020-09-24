@@ -8,6 +8,12 @@ session_start();
 <head>
 	<title>Donor Registration</title>
 	<link rel="stylesheet" type="text/css" href="css/s1.css">
+	<style type="text/css">
+		td{
+			width: 200px;
+			height: 40px;
+		}
+	</style>
 </head>
 <body>
 <div id="inner_full">
@@ -27,44 +33,32 @@ session_start();
 	<form action="" method="post">
 	<table>
 		<tr>
-			<td width="200px" height="50px">Enter First Name</td>
-			<td width="200px" height="50px"><input type="text" name="First_name" placeholder="Enter First Name"></td>
-			<td width="200px" height="50px">Enter Last Name</td>
-			<td width="200px" height="50px"><input type="text" name="Last_name" placeholder="Enter Last Name">
-		</td>
-	</tr>
-		<tr>
-			<td width="200px" height="50px">Enter Address</td>
-			<td width="200px" height="50px"><textarea name="Address"></textarea></td>
-			<td width="200px" height="50px">Enter City</td>
-			<td width="200px" height="50px"><input type="text" name="City" placeholder="Enter City"></td>
-    </tr>
-		<tr>
-			<td width="200px" height="50px">Enter Age</td>
-			<td width="200px" height="50px"><input type="text" name="Age"> placeholder="Enter Age"></td>
-			<td width="200px" height="50px">Select Blood Group</td>
-			<td width="200px" height="50px">
-				<select name="Blood_group">
-					<option>O+</option>
-					<option>O-</option>
-					<option>A+</option>
-					<option>A-</option>
-					<option>AB+</option>
-					<option>AB-</option>
-					<option>B+</option>
-					<option>B-</option>
-				</select>
-				</td>
+			<td><center><b><font color="blue">First Name</font></b></center></td>
+			<td><center><b><font color="blue">Last Name</font></b></center></td>
+			<td><center><b><font color="blue">Address</font></b></center></td>
+			<td><center><b><font color="blue">City</font></b></center></td>
+			<td><center><b><font color="blue">Age</font></b></center></td>
+			<td><center><b><font color="blue">Blood Group</font></b></center></td>
+			<td><center><b><font color="blue">Contact No</font></b></center></td>
+			<td><center><b><font color="blue">Email</font></b></center></td>
 			</tr>
+			<?php
+			$q=$db->query("SELECT * FROM donor_registration");
+			while($r1=fetchAll(PDO::ASSOC_OBJ))
+			{
+				?>
+			}
+			?>
 			<tr>
-				<td width="200px" height="50px">Enter Email</td>
-			<td width="200px" height="50px"><input type="text" name="Email" placeholder="Enter Email"></td>
-			<td width="200px" height="50px">Enter Contact No</td>
-			<td width="200px" height="50px"><input type="text" name="Contact_no" placeholder="Enter Contact No"></td>
-			</tr>
-			<tr>
-				<td><input type="submit" name="sub" value="Save"></td>
-			</tr>
+				<td><center><?= $r1->First_name; ?></center></td>
+				<td><center><?= $r1->Last_name; ?</center></td>
+				<td><center><?= $r1->Address; ?</center></td>
+				<td><center><?= $r1->City; ?</center></td>
+				<td><center><?= $r1->Age; ?</center></td>
+				<td><center><?= $r1->Blood_group; ?</center></td>
+				<td><center><?= $r1->Contact_no; ?</center></td>
+				<td><center><?= $r1->Email; ?</center></td>
+				
 		</table>
 	</form>
 	fdbdf
@@ -101,3 +95,8 @@ session_start();
 	?>
 </div></center>
 </div>
+
+
+
+
+
