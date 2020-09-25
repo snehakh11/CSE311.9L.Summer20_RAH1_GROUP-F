@@ -11,7 +11,7 @@ session_start();
 <body>
 <div id="full">
 	<div id="inner_full">
-		<div id="header"><h2> Blood Bank Management System</h2></div>
+		<div id="header"><h2>Blood Bank Management System</h2></div>
 		<div id="body">
 			<br><br><br><br><br>
 			<form action="" method="post">
@@ -50,8 +50,8 @@ session_start();
 		}
 		?>
 
-		</div>
-		<div id="footer"><h4 align="center">Donate Blood Save Lives</h4></div>
+		</div><br><br><br>
+		<div id="footer"><h4 align="center">Donate Blood To Save Lives</h4></div>
 	</div>
 </div>
 </body>

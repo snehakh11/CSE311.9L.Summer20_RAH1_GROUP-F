@@ -11,7 +11,7 @@ session_start();
 <body>
 <div id="full">
 	<div id="inner_full">
-		<div id="header"><h2> Blood Bank Management System</h2></div>
+		<div id="header"><h2 align="center"><a href="admin-home.php" style="text-decoration: none;color: white;"> Blood Bank Management System</a></h2></div>
 		<div id="body">
 			<br>
 			<?php 
@@ -21,13 +21,21 @@ session_start();
              	header("Location:index.php");
              }
 			 ?>
-			<h1>WELCOME</h1>
+			 
+			 <br><br><br><br>
+			<ul> 		
+				<li><a href="Donor_reg.php">Donor Registration</a></li>			
+				<li><a href="Donor_list.php">Donor List</a></li>								
+				<li><a href="Blood_list.php">Blood In Stock</a></li>				
+				<li><a href="blood-stock-out-list">Out Of Stock Blood List</a></li>
+			</ul>
+			
 			
 
 		</div>
-		<div id="footer"><h4 align="center">Donate Blood Save Lives</h4></div>
-		<p align="center"><a href="logout.php"><font color="maroon">Logout</font><a></p>
-	</div>
+		<div id="footer"><h4 align="center">Donate Blood To Save Lives</h4>
+		<p align="center"><a href="logout.php"><font color="blue">Logout</font></a></p>
+	    </div>
 </div>
 </body>
 </html>
