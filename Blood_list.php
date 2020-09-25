@@ -89,7 +89,6 @@ session_start();
 				?>
 			</center></td>
 		</tr>
-
 		</table>
 	</form>
 	?>
