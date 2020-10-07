@@ -36,7 +36,7 @@ session_start();
              	<tr>	
              		<td><center><b><font color="Black">Username</font></b></center></td>
 					<td><center><b><font color="Black">Contact Number</font></b></center></td>
-					
+
 					
 					
 			</tr>
@@ -48,9 +48,7 @@ session_start();
 				<tr>
 				<td><center><?= $r1->username; ?></center></td>			
 				<td><center><?= $r1->contact_no; ?></center></td>
-				<td>
-						<button type="button" class="btn btn-success">EDIT</button>
-					</td>
+				
 				
 			</tr>
 				<?php
