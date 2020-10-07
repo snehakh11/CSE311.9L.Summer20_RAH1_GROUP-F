@@ -22,7 +22,7 @@ session_start();
 				</tr>
 				<tr>
 					<td width="200px" height="70px"><b>Enter Password</b></td>
-					<td width="200px" height="70px"><input type="text" name="ps" placeholder="Enter Password" style="width: 180px;height: 30px;border-radius: 15px;"></td>
+					<td width="200px" height="70px"><input type="password" name="ps" placeholder="Enter Password" style="width: 180px;height: 30px;border-radius: 15px;"></td>
 				</tr>
 				<tr>
 					<td><input type="submit" name="sub" value="Login" style="width: 100px;height: 40px;border-radius: 7px;"></td>
@@ -52,6 +52,9 @@ session_start();
 
 		</div><br><br><br>
 		<div id="footer"><h4 align="center">Donate Blood To Save Lives</h4></div>
+
+
+
 	</div>
 </div>
 </body>

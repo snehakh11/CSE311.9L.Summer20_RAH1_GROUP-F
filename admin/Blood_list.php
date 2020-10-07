@@ -22,7 +22,7 @@ session_start();
 		<br>
 		<?php
 		$un=$_SESSION['un'];
-		if (|$un) 
+		if (!$un) 
 		{
 		 header("Location:index.php");
 		}		

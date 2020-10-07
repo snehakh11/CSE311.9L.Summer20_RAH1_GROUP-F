@@ -24,10 +24,11 @@ session_start();
 			 
 			 <br><br><br><br>
 			<ul> 		
-				<li><a href="Donor_reg.php">Donor Registration</a></li>			
-				<li><a href="Donor_list.php">Donor List</a></li>								
+				<li><a href="Donor_reg.php">Donor Registration</a></li>	
+				
+				<li><a href="Donor_list.php">Donor List</a></li>							
 				<li><a href="Blood_list.php">Blood In Stock</a></li>				
-				<li><a href="blood-stock-out-list">Out Of Stock Blood List</a></li>
+				
 			</ul>
 			
 			
