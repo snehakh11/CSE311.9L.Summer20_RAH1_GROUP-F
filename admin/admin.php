@@ -11,7 +11,7 @@ session_start();
 <body>
 <div id="full">
 	<div id="inner_full">
-		<div id="header"><h2> Blood Bank Management System</h2></div>
+		<div id="header"><h2>Blood Bank Management System</h2></div>
 		<div id="body">
 			<br><br><br><br><br>
 			<form action="" method="post">
@@ -22,7 +22,7 @@ session_start();
 				</tr>
 				<tr>
 					<td width="200px" height="70px"><b>Enter Password</b></td>
-					<td width="200px" height="70px"><input type="text" name="ps" placeholder="Enter Password" style="width: 180px;height: 30px;border-radius: 15px;"></td>
+					<td width="200px" height="70px"><input type="password" name="ps" placeholder="Enter Password" style="width: 180px;height: 30px;border-radius: 15px;"></td>
 				</tr>
 				<tr>
 					<td><input type="submit" name="sub" value="Login" style="width: 100px;height: 40px;border-radius: 7px;"></td>
@@ -50,8 +50,11 @@ session_start();
 		}
 		?>
 
-		</div>
-		<div id="footer"><h4 align="center">Donate Blood Save Lives</h4></div>
+		</div><br><br><br>
+		<div id="footer"><h4 align="center">Donate Blood To Save Lives</h4></div>
+
+
+
 	</div>
 </div>
 </body>
