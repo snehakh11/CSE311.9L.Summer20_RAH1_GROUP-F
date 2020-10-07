@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Admin Login</title>
+	<title>Donor Registration</title>
 	<link rel="stylesheet" type="text/css" href="css/s1.css">
 </head>
 <body>
