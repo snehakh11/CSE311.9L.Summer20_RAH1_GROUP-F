@@ -21,9 +21,9 @@ include ('connection.php');
 			 	<table>
 			 		<tr>
 			<td width="200px" height="50px">Enter First Name</td>
-			<td width="200px" height="50px"><input type="text" name="First_name" placeholder=" Enter First Name"></td>
+			<td width="200px" height="50px"><input type="text" name="First_name" placeholder=" Enter Your First Name"></td>
 			<td width="200px" height="50px">Enter Last Name</td>
-			<td width="200px" height="50px"><input type="text" name="Last_name" placeholder="Enter Last Name">
+			<td width="200px" height="50px"><input type="text" name="Last_name" placeholder="Enter Your Last Name">
 		</td>
 	</tr>
 		<tr>
